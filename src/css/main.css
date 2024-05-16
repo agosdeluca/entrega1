@@ -1,0 +1,59 @@
+:root {
+    --color-principal: #ed254e;
+    --color-hover: #ff66d8;
+    --color-fuentes: #2b2d42;
+    --color-fondo: #efd9ce;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-fuentes);
+}
+
+a:hover:not(#cart, #titulo) {
+    color: red
+}
+
+#titulo {
+    font-size: 22px;
+    color: black;
+}
+
+header {
+    box-shadow: 0 5px var(--color-principal);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    background-color: rgb(195, 142, 218);
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+header nav {
+    display: flex;
+    margin: 0 60px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+li {
+    list-style: none;
+}
+
+.productos {
+    color: #ed254e;
+    padding: 10%;
+}
