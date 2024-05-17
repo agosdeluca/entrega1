@@ -1,8 +1,8 @@
 
-export const Carrito = () => {
+export const Carrito = (props) => {
     return (
         <div className='carrito'>
-            🛒1
+         <p>{props.numero}</p>
         </div>
     )
 }

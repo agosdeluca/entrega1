@@ -57,3 +57,10 @@ li {
     color: #ed254e;
     padding: 10%;
 }
+.carrito {
+    background-color: white;
+    border-radius: 100%;
+    display: inline-block;
+    line-height: 20px;
+    aspect-ratio: 1;
+}
